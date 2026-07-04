@@ -1,0 +1,74 @@
+# ============================================================
+#  Ghostty · tema "Café Preto" (black / blur)
+#  Preto quase puro + transparência pro Blur My Shell desfocar
+# ============================================================
+# ---- Fonte ----
+font-family = "JetBrainsMono Nerd Font"
+font-size = 12
+font-thicken = true
+font-feature = calt
+font-feature = liga
+adjust-cell-height = 8%
+# ---- Cores (preto com acento café) ----
+background = 0B0908
+foreground = E6DED2
+cursor-color = D9954F
+cursor-text = 0B0908
+selection-background = 2E241B
+selection-foreground = F1E7D4
+cursor-style = block
+cursor-style-blink = false
+# ANSI — normal
+palette = 0=#1a1512
+palette = 1=#d47b66
+palette = 2=#9dbb6e
+palette = 3=#e0aa4e
+palette = 4=#84a8c0
+palette = 5=#c48aa8
+palette = 6=#74b3a2
+palette = 7=#c6b8a4
+# ANSI — bright
+palette = 8=#544537
+palette = 9=#e59480
+palette = 10=#b2cc85
+palette = 11=#eec06a
+palette = 12=#9fbfd4
+palette = 13=#d6a3bf
+palette = 14=#8ec9b8
+palette = 15=#f1e7d4
+# ---- Janela / transparência (blur real vem do Blur My Shell) ----
+background-opacity = 0.78
+background-blur-radius = 20
+window-padding-x = 18
+window-padding-y = 16
+window-padding-balance = true
+window-padding-color = background
+window-theme = ghostty
+window-decoration = auto
+gtk-titlebar = true
+gtk-tabs-location = top
+gtk-wide-tabs = false
+window-new-tab-position = end
+unfocused-split-opacity = 0.82
+split-divider-color = 2E241B
+# ---- Estética extra ----
+bold-is-bright = false
+link-url = true
+cursor-opacity = 0.95
+resize-overlay = never
+window-inherit-font-size = true
+mouse-scroll-multiplier = 1.5
+# ---- Comportamento ----
+mouse-hide-while-typing = true
+shell-integration = detect
+copy-on-select = clipboard
+confirm-close-surface = false
+window-save-state = always
+# ---- Atalhos extras ----
+keybind = ctrl+shift+enter=new_split:right
+keybind = ctrl+shift+backslash=new_split:down
+keybind = ctrl+shift+w=close_surface
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+tab=next_tab
+keybind = ctrl+shift+tab=previous_tab
+keybind = ctrl+shift+comma=reload_config

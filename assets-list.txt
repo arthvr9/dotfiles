@@ -1,0 +1,7 @@
+# Fontes (~/.local/share/fonts/)
+JetBrainsMonoNerdFont
+Poppins
+SpaceMono
+
+# Ícones (~/.local/share/icons/)
+Everforest-Light
